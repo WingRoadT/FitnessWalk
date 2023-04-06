@@ -1,0 +1,31 @@
+@media screen and (max-width: 800px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 75vh;
+        background-color: #EEF1EF;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        color: #1C2321;
+    }
+  
+    .language input {
+        height: 50px;
+        width: 75px;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px 20px;
+        vertical-align: middle;
+        background-color: #A9B4C2;
+        color:#1C2321 ;
+        
+    }
+  
+}
