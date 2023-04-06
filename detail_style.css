@@ -1,0 +1,33 @@
+body{
+    background-color: #EEF1EF;
+    color: #1C2321;
+}
+#back {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #7D98A1;
+    outline: none;
+    border: none;
+    background-image: url("icon.png");
+    background-size: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#back:hover {
+    cursor: pointer;
+    background-color: #aaa;
+}
+
+#back:active {
+    background-color: #888;
+}
+
+#show {
+    height: 400px;
+}
