@@ -26,7 +26,7 @@ window.onload = function() {
 
         var filteredData = data.filter(function(item) {
             var regex = new RegExp(search, 'i');
-            return regex.test(item.Title_en) || (regex.test(item.Title_sc) || regex.test(item.Title_tc));
+            return regex.test(item.Title_en) || regex.test(item.District_en)|| (regex.test(item.Title_sc) || regex.test(item.Title_tc)) || (regex.test(item.District_sc) || regex.test(item.District_tc));
             
         });
         
