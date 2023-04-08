@@ -6,7 +6,7 @@
     }
 
     input {
-        width: 100%;
+        width: 98%;
         height: 30px;
         font-size: 18px;
         border-radius: 5px;
@@ -15,7 +15,7 @@
 
     .box button{
         border: 1px gray; 
-        width: 100%;
+        width: 99.5%;
         height: 30px;
         font-size: 20px;
         font-weight: bold;
