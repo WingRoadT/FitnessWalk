@@ -4,6 +4,26 @@
         color: #1C2321;
         
     }
+
+    input {
+        width: 400px;
+        height: 30px;
+        font-size: 18px;
+        border-radius: 5px;
+        margin-bottom: 2px;
+    }
+
+    .box button{
+        border: 1px gray; 
+        width: 405px;
+        height: 30px;
+        font-size: 20px;
+        font-weight: bold;
+        vertical-align: middle;
+        background-color: #A9B4C2;
+        color:#1C2321 ;
+    }
+
     .obj{
         justify-content: center;
     }
