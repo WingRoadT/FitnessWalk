@@ -2,8 +2,21 @@
     body {
         background-color: #EEF1EF;
         color: #1C2321;
-        
+        font-family: "微軟正黑體";
     }
+
+    box1 { 
+        display: flex;
+        background-color: #A9B4C2;
+        font-size: 18px;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1% ;
+        text-align: center;
+      }
+      
+
+
 
     input {
         width: 98%;
