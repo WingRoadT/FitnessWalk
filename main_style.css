@@ -1,38 +1,37 @@
 @media screen and (max-width: 800px) {
-    
     body {
         background-color: #EEF1EF;
         color: #1C2321;
         
     }
 
-    .box {
-        display: grid;
-        place-items: center;
-        background-color: #A9B4C2;
-      }
-    
-    .box2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;  
+    input {
+        width: 100%;
+        height: 30px;
+        font-size: 18px;
+        border-radius: 5px;
+        margin-bottom: 2px;
     }
 
-    
-
-    .box2 button {
-        height: 50px;
-        width: 200px;
-        font-size: 18px;
+    .box button{
+        border: 1px gray; 
+        width: 100%;
+        height: 30px;
+        font-size: 20px;
         font-weight: bold;
-        padding: 5px 5px;
         vertical-align: middle;
         background-color: #A9B4C2;
         color:#1C2321 ;
-        
     }
-    .output button{
+
+    .obj{
+        justify-content: center;
+    }
+    .obj h2{
+        font-size: 18px;
+    }
+    
+    .obj button{ 
         border: 1px solid #5E6572;
         border-radius: 10px;
         height: 120px;
@@ -41,13 +40,5 @@
         text-align: center;
         margin: 10px auto;
         display: block;
-    }
-
-    .ooutput{
-        justify-content: center;
-    }
-
-    .output h2{
-        font-size: 18px;
-    }
+    };
 }
